@@ -25,6 +25,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:1332KP26R0036|COMMERCE, DEPARTMENT OF": {
+   "notice_id": "1dfd083c656f4d6faf0a52753306694d",
+   "title": "NESDIS Consolidated Antenna and Ground Systems Services (NCAGSS)",
+   "deadline": null,
+   "set_aside": "",
+   "first_sent": "2026-11-16",
+   "last_sent": "2026-11-16"
+  },
   "sol:140R4026R0021|INTERIOR, DEPARTMENT OF THE": {
    "notice_id": "73f1f0e3fd98489ab214a6075799a3f1",
    "title": "IMT HDB Service IDIQ Contract",
@@ -34,9 +42,9 @@
    "last_sent": "2026-11-16"
   },
   "sol:19AQMM24R0113|STATE, DEPARTMENT OF": {
-   "notice_id": "9a8b6e50d44f48a4bac9a236f972e94e",
+   "notice_id": "bb11d6041195431fab93de7c1c084aa0",
    "title": "Next Generation (NextGen) Passport Personalization Printers Support",
-   "deadline": "2026-11-30T18:00:00+00:00",
+   "deadline": "2027-01-30T18:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
@@ -69,6 +77,14 @@
    "notice_id": "05e1ecb6acc245ee8a9a05c6f4bcea96",
    "title": "DA01--Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
    "deadline": "2026-11-30T18:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-16",
+   "last_sent": "2026-11-16"
+  },
+  "sol:36C10B27R0003|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "0b48a6495bdb4fe5b3cb53e0b962a913",
+   "title": "DA10--Radiology and Cardiology Foundational Enterprise Imaging    System",
+   "deadline": "2026-12-09T15:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
