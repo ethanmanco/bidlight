@@ -1,0 +1,120 @@
+# Bidlight profile: what counts as a good fit for your business.
+# Fork the repo, edit this file and capability.md, and you are done.
+
+business_name: Manco Labs
+
+# NAICS codes you work under. A notice with one of these codes matches.
+naics:
+  - "541511"  # Custom Computer Programming Services
+  - "541512"  # Computer Systems Design Services
+  - "541519"  # Other Computer Related Services
+
+# Words that describe your work. Matching ignores case, treats spaces and
+# hyphens the same, and accepts a trailing "s". A keyword in the TITLE makes
+# a notice match even without one of your NAICS codes. Keywords found only in
+# the description add points but do not make a match on their own, because
+# words like "website" show up in a lot of boilerplate.
+keywords:
+  - website
+  - web development
+  - web design
+  - WordPress
+  - Drupal
+  - accessibility
+  - Section 508
+  - 508 compliance
+  - WCAG
+  - web application
+  - web-based
+  - web portal
+  - content management system
+  - user experience
+  - UX
+  - front-end
+  - digital services
+  - software maintenance
+
+# Words in a TITLE that usually mean "not your kind of work". A notice whose
+# title has one of these is dropped unless a keyword also appears in its
+# title, or two different keywords appear in its description.
+exclude_title_words:
+  - brand name
+  - license
+  - licenses
+  - hardware
+  - equipment
+  - event
+  - testing
+  - laboratory
+  - medical device
+  - repair
+  - parts
+
+# Notice types to consider (as written in the SAM.gov "Type" column).
+notice_types:
+  - Solicitation
+  - Combined Synopsis/Solicitation
+  - Presolicitation
+  - Sources Sought
+
+# Set-aside codes you prefer. Codes are listed at open.gsa.gov under
+# "Set-Aside Values" (SBA = Total Small Business, SBP = Partial Small Business).
+# Preferring a set-aside only changes the score. Bidlight never decides
+# whether you are eligible for it.
+preferred_set_asides:
+  - SBA
+  - SBP
+
+# Two-letter state codes you prefer for the place of performance.
+preferred_states:
+  - LA
+
+# Skip notices whose response deadline is closer than this.
+min_days_to_deadline: 5
+
+# Skip notices with no deadline that were posted longer ago than this.
+# (The extract keeps some "active" notices from years ago.)
+max_age_days_without_deadline: 60
+
+# Skip notices performed outside the United States.
+us_only: true
+
+# How many matches get the full treatment (details and an AI summary).
+# Every other new match is still listed, one line each.
+top_n: 10
+
+# Time zone for dates in the digest.
+timezone: America/Chicago
+
+# Points for each scoring rule. Every match shows which rules it hit.
+scoring:
+  naics_match: 25
+  keyword_in_title: 25        # per distinct keyword
+  keyword_in_description: 8   # per distinct keyword not already in the title
+  keyword_points_max: 40
+  preferred_set_aside: 15
+  no_set_aside: 5             # notice is open to everyone
+  preferred_state: 10
+  no_place_listed: 5
+  roomy_deadline_days: 14     # deadline further out than this (or none listed)
+  roomy_deadline: 5
+
+# AI summaries for the top matches. Needs the ANTHROPIC_API_KEY secret.
+# Without it, the digest still goes out, just without summaries.
+ai:
+  enabled: true
+  model: claude-haiku-5-5
+  # US dollars per million tokens for the model above. Check
+  # https://platform.claude.com/docs/en/about-claude/pricing if you change models.
+  input_price_per_mtok: 0.10
+  output_price_per_mtok: 0.50
+  max_output_tokens: 500
+  description_chars: 6000
+  daily_cost_cap_usd: 0.05
+
+# Optional same-day notices from the SAM.gov Get Opportunities API.
+# Needs the SAM_API_KEY secret. A personal key with no SAM.gov role allows
+# only 10 requests a day, so keep max_requests_per_run low.
+sam_api:
+  enabled: true
+  max_requests_per_run: 5
