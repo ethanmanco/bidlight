@@ -141,3 +141,11 @@ def test_prompt_trims_long_descriptions(matches):
     m.notice = replace(m.notice, description="word " * 10_000)
     prompt = build_prompt(m, CAPABILITY, 6000)
     assert len(prompt) < 6000 + 1000
+
+
+def test_api_error_message_is_kept(profile, matches):
+    class ApiError(Exception):
+        message = "output_config.format: not supported"
+
+    run = summarize(matches[:1], CAPABILITY, profile.ai, FakeClient(replies={1: ApiError()}))
+    assert run.errors == ["ApiError: output_config.format: not supported"]

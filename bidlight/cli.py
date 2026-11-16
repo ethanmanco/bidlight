@@ -32,7 +32,37 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--now", help="pretend the current time is this ISO timestamp (testing)")
     p.add_argument("--post", action="store_true", help="post the digest as a GitHub issue")
     p.add_argument("--dry-run", action="store_true", help="do not post and do not update the state file")
+    p.add_argument(
+        "--check-ai",
+        action="store_true",
+        help="make one real summary call on a sample notice and print it (posts and saves nothing)",
+    )
     return p.parse_args(argv)
+
+
+SAMPLE_EXTRACT = Path(__file__).resolve().parent.parent / "tests" / "fixtures" / "sample.csv"
+SAMPLE_NOW = datetime(2026, 11, 16, 12, tzinfo=timezone.utc)
+
+
+def check_ai(profile, capability: str) -> int:
+    """One real call on the best sample notice: proves the key, model, and request shape work."""
+    if not SAMPLE_EXTRACT.exists():
+        log.error("Sample notices not found at %s", SAMPLE_EXTRACT)
+        return 1
+    matches, _ = find_matches(extract.read_notices(extract.file_chunks(SAMPLE_EXTRACT)), profile, SAMPLE_NOW)
+    run = summarize(matches[:1], capability, profile.ai)
+    log.info(run.note)
+    for error in run.errors:
+        log.error("API said: %s", error)
+    summary = run.summaries.get(matches[0].notice.notice_id) if matches else None
+    if summary is None:
+        log.error("AI check FAILED: no summary was produced.")
+        return 1
+    log.info("Notice: %s", matches[0].notice.title)
+    log.info("Summary: %s", summary.text)
+    log.info("Fit note: %s", summary.fit)
+    log.info("AI check passed.")
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -44,6 +74,9 @@ def main(argv: list[str] | None = None) -> int:
     profile = load_profile(args.profile)
     capability_path = Path(args.capability)
     capability = capability_path.read_text(encoding="utf-8") if capability_path.exists() else ""
+
+    if args.check_ai:
+        return check_ai(profile, capability)
 
     if args.file:
         log.info("Reading %s", args.file)

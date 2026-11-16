@@ -101,6 +101,7 @@ class SummaryRun:
     summaries: dict[str, Summary] = field(default_factory=dict)
     note: str = ""
     spent_usd: float = 0.0
+    errors: list[str] = field(default_factory=list)
 
 
 def make_client():
@@ -148,7 +149,10 @@ def summarize(matches: list[Match], capability: str, settings: AISettings, clien
             )
         except Exception as exc:  # noqa: BLE001 - one bad call must not stop the digest
             failed += 1
-            log.warning("Summary failed for %s: %s", match.notice.notice_id, type(exc).__name__)
+            # API error messages describe the request problem; they never contain the key.
+            detail = getattr(exc, "message", "") or ""
+            log.warning("Summary failed for %s: %s %s", match.notice.notice_id, type(exc).__name__, detail[:300])
+            run.errors.append(f"{type(exc).__name__}: {detail[:300]}")
             continue
         usage = getattr(response, "usage", None)
         meter.add(getattr(usage, "input_tokens", 0), getattr(usage, "output_tokens", 0))

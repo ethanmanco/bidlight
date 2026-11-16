@@ -192,3 +192,14 @@ def test_post_without_github_env_fails(tmp_path):
     code, state, _ = run(tmp_path, "--post")
     assert code == 1
     assert not state.exists()
+
+
+def test_check_ai_passes_with_working_client(monkeypatch):
+    from tests.test_summarize import FakeClient
+
+    monkeypatch.setattr("bidlight.summarize.make_client", lambda: FakeClient())
+    assert cli.main(["--profile", str(ROOT / "profile.yaml"), "--capability", str(ROOT / "capability.md"), "--check-ai"]) == 0
+
+
+def test_check_ai_fails_without_key():
+    assert cli.main(["--profile", str(ROOT / "profile.yaml"), "--check-ai"]) == 1
