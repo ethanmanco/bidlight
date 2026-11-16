@@ -1,0 +1,49 @@
+name: Daily digest
+
+on:
+  schedule:
+    # 12:00 UTC = 6 AM Central (7 AM during daylight time), well after
+    # SAM.gov rebuilds the extract (about 04:30 UTC).
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit state/sent.json
+  issues: write     # post the digest
+
+concurrency:
+  group: bidlight-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Find matches and post the digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m bidlight --post
+
+      - name: Save the list of sent notices
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/sent.json
+          if git diff --cached --quiet; then
+            echo "No changes to the sent list."
+          else
+            git commit -m "Update sent list for $(date -u +%Y-%m-%d)"
+            git push
+          fi
