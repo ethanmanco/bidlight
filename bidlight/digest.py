@@ -74,9 +74,18 @@ def _place(m: Match) -> str:
     return ", ".join(parts) or "not specified"
 
 
+SMALL_WORDS = {"of", "the", "and", "for", "on", "in", "at", "to", "a", "an"}
+
+
+def _name_case(text: str) -> str:
+    """'DEPT OF THE NAVY' -> 'Dept of the Navy'."""
+    words = text.title().split(" ")
+    return " ".join(w.lower() if i and w.lower() in SMALL_WORDS else w for i, w in enumerate(words))
+
+
 def _agency(m: Match) -> str:
     n = m.notice
-    parts = [p.title() for p in (n.agency, n.sub_tier) if p]
+    parts = [_name_case(p) for p in (n.agency, n.sub_tier) if p]
     return ", ".join(dict.fromkeys(parts)) or "Unknown agency"
 
 
