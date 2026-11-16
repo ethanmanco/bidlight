@@ -104,13 +104,23 @@ class SummaryRun:
     errors: list[str] = field(default_factory=list)
 
 
+def client_headers() -> dict[str, str]:
+    """Extra headers for every Claude request.
+
+    A key that is not scoped to a workspace must name one with the
+    anthropic-workspace-id header; set ANTHROPIC_WORKSPACE_ID for that.
+    """
+    workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID", "").strip()
+    return {"anthropic-workspace-id": workspace} if workspace else {}
+
+
 def make_client():
     """Return an Anthropic client, or None when no key is configured."""
     if not os.environ.get("ANTHROPIC_API_KEY"):
         return None
     import anthropic
 
-    return anthropic.Anthropic(max_retries=2, timeout=60.0)
+    return anthropic.Anthropic(max_retries=2, timeout=60.0, default_headers=client_headers())
 
 
 def summarize(matches: list[Match], capability: str, settings: AISettings, client=None) -> SummaryRun:

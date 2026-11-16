@@ -24,6 +24,7 @@ Bidlight describes notices and links to the official page. It never says a busin
 4. **Empty the sent list**: replace `state/sent.json` with `{"version": 1, "sent": {}}` so your first digest starts fresh.
 5. **Add secrets** under Settings > Secrets and variables > Actions:
    - `ANTHROPIC_API_KEY` (optional): turns on AI summaries. Get a key at [platform.claude.com](https://platform.claude.com).
+   - `ANTHROPIC_WORKSPACE_ID` (only if needed): if your key is not scoped to a workspace, the API asks for a workspace ID. Copy it from the workspace's page in the Claude Console (it starts with `wrkspc_`). A key created inside a workspace does not need this.
    - `SAM_API_KEY` (optional): adds notices posted since the nightly file was built. Request a key from your SAM.gov account page.
 6. **Turn on Actions** in your fork (the Actions tab), then run "Daily digest" once by hand with "Run workflow".
 7. **Get the emails**: make sure you watch the repo (Watch > All Activity) and that GitHub email notifications are on. Digest issues are created by GitHub Actions, so they reach you like any other new issue.

@@ -149,3 +149,14 @@ def test_api_error_message_is_kept(profile, matches):
 
     run = summarize(matches[:1], CAPABILITY, profile.ai, FakeClient(replies={1: ApiError()}))
     assert run.errors == ["ApiError: output_config.format: not supported"]
+
+
+def test_workspace_header_only_when_set(monkeypatch):
+    from bidlight.summarize import client_headers, make_client
+
+    monkeypatch.delenv("ANTHROPIC_WORKSPACE_ID", raising=False)
+    assert client_headers() == {}
+    monkeypatch.setenv("ANTHROPIC_WORKSPACE_ID", " wrkspc_example ")
+    assert client_headers() == {"anthropic-workspace-id": "wrkspc_example"}
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test-key-not-real")
+    assert make_client().default_headers["anthropic-workspace-id"] == "wrkspc_example"
