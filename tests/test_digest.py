@@ -1,6 +1,6 @@
 from dataclasses import replace
 
-from bidlight.digest import DigestInput, Summary, no_dashes, render
+from bidlight.digest import EM_DASH, EN_DASH, DigestInput, Summary, no_dashes, render
 from bidlight.match import find_matches
 
 from .conftest import NOW
@@ -60,14 +60,14 @@ def test_summaries_are_included(profile, notices):
 def test_no_em_dashes_even_from_notice_titles(profile, notices):
     inp = make(profile, notices)
     first = inp.new[0]
-    first.notice = replace(first.notice, title="Web Portal — Phase 2 – Support")
+    first.notice = replace(first.notice, title=f"Web Portal {EM_DASH} Phase 2 {EN_DASH} Support")
     body = render(inp).body
-    assert "—" not in body and "–" not in body
+    assert EM_DASH not in body and EN_DASH not in body
     assert "Web Portal, Phase 2 - Support" in body
 
 
 def test_no_dashes_helper():
-    assert no_dashes("a — b—c – d") == "a, b, c - d"
+    assert no_dashes(f"a {EM_DASH} b{EM_DASH}c {EN_DASH} d") == "a, b, c - d"
 
 
 def test_body_fits_github_limit(profile, notices):

@@ -80,9 +80,13 @@ def _agency(m: Match) -> str:
     return ", ".join(dict.fromkeys(parts)) or "Unknown agency"
 
 
+EM_DASH = chr(0x2014)
+EN_DASH = chr(0x2013)
+
+
 def no_dashes(text: str) -> str:
     """House style: no em or en dashes anywhere in the digest."""
-    return text.replace(" — ", ", ").replace("—", ", ").replace("–", "-")
+    return text.replace(f" {EM_DASH} ", ", ").replace(EM_DASH, ", ").replace(EN_DASH, "-")
 
 
 def _clean(text: str) -> str:

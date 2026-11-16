@@ -4,6 +4,7 @@ from types import SimpleNamespace
 
 import pytest
 
+from bidlight.digest import EM_DASH
 from bidlight.match import find_matches
 from bidlight.summarize import CostMeter, SYSTEM_PROMPT, build_prompt, crosses_the_line, summarize
 
@@ -30,7 +31,7 @@ class FakeClient:
         if isinstance(reply, tuple):
             stop, reply = reply
         text = reply if reply is not None else json.dumps(
-            {"summary": f"Summary {len(self.calls)} — plain.", "fit": "Overlaps with web work."}
+            {"summary": f"Summary {len(self.calls)} {EM_DASH} plain.", "fit": "Overlaps with web work."}
         )
         return SimpleNamespace(
             stop_reason=stop,
