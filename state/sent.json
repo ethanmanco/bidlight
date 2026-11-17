@@ -41,6 +41,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:140RR027Q0029|INTERIOR, DEPARTMENT OF THE": {
+   "notice_id": "4882a4cdf33e46b2ac1f8220e242a8a4",
+   "title": "R--IT TSC - DATA ANALYTICS AND SERVICES",
+   "deadline": "2026-11-24T06:30:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-17",
+   "last_sent": "2026-11-17"
+  },
   "sol:19AQMM24R0113|STATE, DEPARTMENT OF": {
    "notice_id": "bb11d6041195431fab93de7c1c084aa0",
    "title": "Next Generation (NextGen) Passport Personalization Printers Support",
@@ -50,12 +58,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:2027-R-007|SENATE, THE": {
-   "notice_id": "f28de4a9e5b949fdb8142557bd2f2527",
+   "notice_id": "8f893558c339403181947a52cab889fe",
    "title": "U.S. Senate Wellbeing Application",
-   "deadline": "2026-11-23T19:00:00+00:00",
+   "deadline": "2026-12-04T22:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-17"
   },
   "sol:36C10B26Q0625|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "5024ec784f894e20876492987e4f9813",
@@ -83,11 +91,11 @@
   },
   "sol:36C10B27R0003|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "0b48a6495bdb4fe5b3cb53e0b962a913",
-   "title": "DA10--Radiology and Cardiology Foundational Enterprise Imaging    System",
+   "title": "DA10--Radiology and Cardiology Foundational Enterprise Imaging System",
    "deadline": "2026-12-09T15:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-17"
   },
   "sol:36C26027Q0119|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "f107f75ec18a48d09c520c29cf744ece",
@@ -105,6 +113,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:70FA3127I00000002|HOMELAND SECURITY, DEPARTMENT OF": {
+   "notice_id": "5dc9d47b7d004778905287840fd6a7e4",
+   "title": "FIID Advanced Anti-Fraud and Risk-Modeling Proof of Concept",
+   "deadline": "2026-12-04T20:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-17",
+   "last_sent": "2026-11-17"
+  },
   "sol:70ZA0127AIRC12001|HOMELAND SECURITY, DEPARTMENT OF": {
    "notice_id": "d11021cb4fc14020b5eff9532adb071f",
    "title": "U.S. Coast Guard Augmented Reality and Virtual Reality Training Devices",
@@ -112,6 +128,22 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:80NSSC27|NATIONAL AERONAUTICS AND SPACE ADMINISTRATION": {
+   "notice_id": "97a1f3875ca14f428fc0aa32fc9eb0e9",
+   "title": "FY27 HighGear Software Renewal ELMT STANDALONE",
+   "deadline": "2026-11-24T18:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-17",
+   "last_sent": "2026-11-17"
+  },
+  "sol:ACQ_SI_DOP|DEPT OF DEFENSE": {
+   "notice_id": "6d64f1dce5f3423f97553a6f5a9874e0",
+   "title": "Acquisition SI",
+   "deadline": "2026-12-18T20:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-17",
+   "last_sent": "2026-11-17"
   },
   "sol:APEX|DEPT OF DEFENSE": {
    "notice_id": "a94d56ff8e2a453b92b2629cba0f62ec",
@@ -136,6 +168,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:F3G1EB6257AG01|DEPT OF DEFENSE": {
+   "notice_id": "6a6a981f0f0441d3acd9ae1aabc340a7",
+   "title": "30 RS Mission Planning Software Tool (MPST)",
+   "deadline": "2026-11-30T18:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-17",
+   "last_sent": "2026-11-17"
   },
   "sol:FA300227RDSS4|DEPT OF DEFENSE": {
    "notice_id": "100ae61945aa4be4b7cefb18db86dc9c",
@@ -257,13 +297,29 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:NBSFS-RFI01|DEPT OF DEFENSE": {
+   "notice_id": "c25438bb90154fc09ca1b8f819b5ec91",
+   "title": "NBSFS Facility Controls System Modernization",
+   "deadline": "2027-01-15T16:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-17",
+   "last_sent": "2026-11-17"
+  },
   "sol:NGA-SRW|DEPT OF DEFENSE": {
-   "notice_id": "1daad770de79423cb05c361a706d9740",
+   "notice_id": "01a9603402a6488e99748e1457c85d1b",
    "title": "Sustainment for SRW",
    "deadline": "2026-12-12T00:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-17"
+  },
+  "sol:PANRSA27P000001|DEPT OF DEFENSE": {
+   "notice_id": "d42cc82803064a10a68625d59c824d29",
+   "title": "Enterprise Information Technology Support Services (ITSS)",
+   "deadline": "2026-12-18T16:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-17",
+   "last_sent": "2026-11-17"
   },
   "sol:SCARS|DEPT OF DEFENSE": {
    "notice_id": "aba5c75a5ca941b1b176ccc5a8c51a4e",
