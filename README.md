@@ -29,7 +29,7 @@ Bidlight describes notices and links to the official page. It never says a busin
 6. **Turn on Actions** in your fork (the Actions tab), then run "Daily digest" once by hand with "Run workflow".
 7. **Get the emails**: make sure you watch the repo (Watch > All Activity) and that GitHub email notifications are on. Digest issues are created by GitHub Actions, so they reach you like any other new issue.
 
-From then on it runs every day at 12:00 UTC. To change the time, edit the `cron` line in `.github/workflows/daily.yml`.
+From then on it runs every day at about 12:17 UTC. GitHub runs scheduled jobs on a best-effort basis, so a digest can arrive late, and on rare busy days a run can be skipped; the next run still catches everything, because nothing is marked sent until it is posted. To change the time, edit the `cron` line in `.github/workflows/daily.yml`.
 
 The first run treats every current match as new and lists them all. After that, each digest holds only what is new or changed.
 

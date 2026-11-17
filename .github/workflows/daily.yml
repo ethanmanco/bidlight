@@ -2,9 +2,10 @@ name: Daily digest
 
 on:
   schedule:
-    # 12:00 UTC = 6 AM Central (7 AM during daylight time), well after
+    # 12:17 UTC = about 6 AM Central (7 AM during daylight time), well after
     # SAM.gov rebuilds the extract (about 04:30 UTC).
-    - cron: "0 12 * * *"
+    # Off the top of the hour: GitHub delays or drops busy :00 schedules.
+    - cron: "17 12 * * *"
   workflow_dispatch:
 
 permissions:
