@@ -17,6 +17,22 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:111720261|HOMELAND SECURITY, DEPARTMENT OF": {
+   "notice_id": "c88c679e95774aa4aa19071c54469abc",
+   "title": "Web-Based Technical Standards, Military Specifications, and Parts Management Subscription",
+   "deadline": "2026-12-17T13:00:00+00:00",
+   "set_aside": "SBP",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
+  },
+  "sol:12760427Q0008|AGRICULTURE, DEPARTMENT OF": {
+   "notice_id": "68dee4b83f094c06bfa9c2aaacb46e5f",
+   "title": "Lectra Gerber AccuMark Software",
+   "deadline": "2026-11-25T22:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
+  },
   "sol:1301381741|DEPT OF DEFENSE": {
    "notice_id": "cf7f1ebcc82c4878bcabd938bb1f5c91",
    "title": "XACTA software",
@@ -65,6 +81,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-17"
   },
+  "sol:2031JW27N00001|TREASURY, DEPARTMENT OF THE": {
+   "notice_id": "40753072fa68490cbeeeba31dab9fd29",
+   "title": "Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture",
+   "deadline": "2026-12-17T15:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
+  },
   "sol:36C10B26Q0625|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "5024ec784f894e20876492987e4f9813",
    "title": "DA01--VA-26-00071371 Memorials Integration Services and Innovation",
@@ -105,6 +129,22 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:36C26227Q0139|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "156fef93406e495486eb1d4e805bb675",
+   "title": "6515--PYXIS IV PREP",
+   "deadline": "2026-11-27T15:00:00+00:00",
+   "set_aside": "SDVOSBC",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
+  },
+  "sol:622673683|DEPT OF DEFENSE": {
+   "notice_id": "86e6a2f4c5054d13894305d920d3b9e7",
+   "title": "Department of Defense Secure Access File Exchange Modernization",
+   "deadline": "2026-12-10T21:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
+  },
   "sol:622775913|DEPT OF DEFENSE": {
    "notice_id": "dd56e987cefb470ea2f697f899386cd2",
    "title": "ADAPTS IDIQ",
@@ -120,6 +160,14 @@
    "set_aside": "",
    "first_sent": "2026-11-17",
    "last_sent": "2026-11-17"
+  },
+  "sol:70US0927RFI0002|HOMELAND SECURITY, DEPARTMENT OF": {
+   "notice_id": "ec92e03718cd4fc5b00d200ed64fb706",
+   "title": "Operational Video Capability (OVC) Support Services for the United States Secret Service",
+   "deadline": "2026-11-25T12:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
   },
   "sol:70ZA0127AIRC12001|HOMELAND SECURITY, DEPARTMENT OF": {
    "notice_id": "d11021cb4fc14020b5eff9532adb071f",
@@ -146,12 +194,12 @@
    "last_sent": "2026-11-17"
   },
   "sol:APEX|DEPT OF DEFENSE": {
-   "notice_id": "a94d56ff8e2a453b92b2629cba0f62ec",
+   "notice_id": "7858b4588f2347a78f3f7a2d58f66e7c",
    "title": "RFI: Agile Platform for Expeditionary C2 (APEX)",
    "deadline": "2026-11-30T22:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-18"
   },
   "sol:DISA-OTA-27-R-ICAM|DEPT OF DEFENSE": {
    "notice_id": "d0c73a8627284f03b3c9474b7796ee5b",
@@ -168,6 +216,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:F2027701000007|HOMELAND SECURITY, DEPARTMENT OF": {
+   "notice_id": "44f80b43f9e8497ea053e5437915eb6f",
+   "title": "IT Support Services (ITSS)",
+   "deadline": "2027-12-18T01:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
   },
   "sol:F3G1EB6257AG01|DEPT OF DEFENSE": {
    "notice_id": "6a6a981f0f0441d3acd9ae1aabc340a7",
@@ -192,6 +248,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:FA704627_RFI_DATA_CATALOG|DEPT OF DEFENSE": {
+   "notice_id": "d826907afb7247e091c636869b85245a",
+   "title": "AFOTEC Data Discoverability, Semantic Governance, and AI Readiness Minimum Viable Product (MVP)",
+   "deadline": "2026-11-24T17:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
   },
   "sol:FA8612_RFI_AMCM_2027_0001|DEPT OF DEFENSE": {
    "notice_id": "1398a352e7a844f998eeeb7e2c9e3f57",
@@ -218,12 +282,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:FEMA_2026_DIRECT_HOUSING_MODERNIZATION_CAPABILITIES_RFI|HOMELAND SECURITY, DEPARTMENT OF": {
-   "notice_id": "8c1636c4e92e464c9553d5004e47c780",
+   "notice_id": "0b41b6e4b103455586bf6ed49031f860",
    "title": "FEMA Request for Information - Direct Housing Modernization Capabilities",
    "deadline": "2026-12-18T17:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-18"
   },
   "sol:FY27_SHIP_ACQUISITION_ENGINEERING_CORRESPONDENCE_MANAGEMENT_SYSTEM|COMMERCE, DEPARTMENT OF": {
    "notice_id": "3a828267980b43cb95f6119c7108c411",
@@ -288,6 +352,22 @@
    "set_aside": "SBA",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:N0003927RM002|DEPT OF DEFENSE": {
+   "notice_id": "b51c8bc73f1c458cbeb90b5e57db8c77",
+   "title": "Solicitation - N0003927RM002: NILE ISS 6 Engineering Services",
+   "deadline": "2026-12-17T20:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
+  },
+  "sol:N0017327Q1301411360|DEPT OF DEFENSE": {
+   "notice_id": "c437495c5f5444c09ecbd187eaf4553b",
+   "title": "Thinkmate Gigabyte Server",
+   "deadline": "2026-11-25T14:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
   },
   "sol:N5523627Q0003|DEPT OF DEFENSE": {
    "notice_id": "124944b303b44bba8d235378eb2c7bfb",
@@ -360,6 +440,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:W912CN27QA014|DEPT OF DEFENSE": {
+   "notice_id": "a67b085ef1d64513a0ddf80426b1dda6",
+   "title": "FS BLDG T112 8 SIPR DROP INSTALLATION",
+   "deadline": "2026-12-09T09:59:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-18",
+   "last_sent": "2026-11-18"
   },
   "sol:W91RUS27RA001|DEPT OF DEFENSE": {
    "notice_id": "65a1d0b2da7c4703bf70bb3054048fb6",
