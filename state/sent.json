@@ -10,12 +10,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:1106202612072026|GENERAL SERVICES ADMINISTRATION": {
-   "notice_id": "4883121a70ef4cbd8b562e8d0a668497",
+   "notice_id": "0d44ad049e474ea389e3661dca75413b",
    "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
    "deadline": "2026-12-08T04:59:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-19"
   },
   "sol:111720261|HOMELAND SECURITY, DEPARTMENT OF": {
    "notice_id": "c88c679e95774aa4aa19071c54469abc",
@@ -49,13 +49,21 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:1333MG27Q0002|COMMERCE, DEPARTMENT OF": {
+   "notice_id": "68cdbc02972e4a4699f4f486d18dddb2",
+   "title": "GeoJobe Software with Training and Support",
+   "deadline": "2026-12-02T18:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
+  },
   "sol:140R4026R0021|INTERIOR, DEPARTMENT OF THE": {
-   "notice_id": "73f1f0e3fd98489ab214a6075799a3f1",
-   "title": "IMT HDB Service IDIQ Contract",
+   "notice_id": "30829227e1be43cbb8ddbf537709616a",
+   "title": "D--IMT HDB Service IDIQ Contract",
    "deadline": "2026-12-01T00:00:00+00:00",
    "set_aside": "SBA",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-19"
   },
   "sol:140RR027Q0029|INTERIOR, DEPARTMENT OF THE": {
    "notice_id": "4882a4cdf33e46b2ac1f8220e242a8a4",
@@ -74,12 +82,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:2027-R-007|SENATE, THE": {
-   "notice_id": "8f893558c339403181947a52cab889fe",
+   "notice_id": "619bcdb9e115406c9e978b7ae5812c6e",
    "title": "U.S. Senate Wellbeing Application",
    "deadline": "2026-12-04T22:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-17"
+   "last_sent": "2026-11-19"
   },
   "sol:2031JW27N00001|TREASURY, DEPARTMENT OF THE": {
    "notice_id": "40753072fa68490cbeeeba31dab9fd29",
@@ -105,6 +113,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:36C10B27Q0022|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "8bb8e802ff0944ccae0490abfead9c83",
+   "title": "6515--Methasoft Medication Dispensing System",
+   "deadline": "2026-12-01T19:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
+  },
   "sol:36C10B27Q0056|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "05e1ecb6acc245ee8a9a05c6f4bcea96",
    "title": "DA01--Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
@@ -112,6 +128,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:36C10B27Q0117|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "b0998b24866242dc92ee4ce9648316aa",
+   "title": "DA10--Utilization Management Software (VA-27-00009483)",
+   "deadline": "2026-12-11T20:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
   },
   "sol:36C10B27R0003|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "0b48a6495bdb4fe5b3cb53e0b962a913",
@@ -177,6 +201,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:80JSC026ORBIT|NATIONAL AERONAUTICS AND SPACE ADMINISTRATION": {
+   "notice_id": "b8ca2ef21ff84da8a77c2870afdf450e",
+   "title": "Operations, Research, and Broad Innovative Technology Services (ORBIT) Request for Information (RFI) and Sources Sought Notice (SSN)",
+   "deadline": "2026-12-04T23:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
+  },
   "sol:80NSSC27|NATIONAL AERONAUTICS AND SPACE ADMINISTRATION": {
    "notice_id": "97a1f3875ca14f428fc0aa32fc9eb0e9",
    "title": "FY27 HighGear Software Renewal ELMT STANDALONE",
@@ -201,13 +233,21 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-18"
   },
+  "sol:BATDOK001|DEPT OF DEFENSE": {
+   "notice_id": "dddfb9dab7c84cefacc5bea1a881a225",
+   "title": "BATDOK Family of Systems (FoS)",
+   "deadline": "2026-11-25T17:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
+  },
   "sol:DISA-OTA-27-R-ICAM|DEPT OF DEFENSE": {
-   "notice_id": "d0c73a8627284f03b3c9474b7796ee5b",
+   "notice_id": "479d8ee8a0f44bc7a33d6955916c9e05",
    "title": "Area of Interest (AOI) for Next Generation Enterprise Identity, Credential, and Access Management (E-ICAM) Prototype Other Transaction (OT)",
    "deadline": "2026-11-30T23:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-19"
   },
   "sol:DLA-RFI-CT-2027-WBOS-MKTRES|DEPT OF DEFENSE": {
    "notice_id": "b44026882ad144629634ab6643a9f0d8",
@@ -257,6 +297,14 @@
    "first_sent": "2026-11-18",
    "last_sent": "2026-11-18"
   },
+  "sol:FA822227QVXG1|DEPT OF DEFENSE": {
+   "notice_id": "2c15129c4e7a42b59cbfcb7ac07c98c9",
+   "title": "Keysight Vector Signal Generator",
+   "deadline": "2026-11-27T23:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
+  },
   "sol:FA8612_RFI_AMCM_2027_0001|DEPT OF DEFENSE": {
    "notice_id": "1398a352e7a844f998eeeb7e2c9e3f57",
    "title": "Automated Mission Communication Manager Request for Information (RFI)",
@@ -266,12 +314,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:FA8771-26-S-C0001|DEPT OF DEFENSE": {
-   "notice_id": "0818d0087f7e4f148bffe38dc68c2461",
+   "notice_id": "dec55323d4f944a39b3970d977f2a95b",
    "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
    "deadline": null,
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-19"
   },
   "sol:FA940127Q0001|DEPT OF DEFENSE": {
    "notice_id": "3781b6c27eaa4938842fe44217964d14",
@@ -338,12 +386,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:M0026427R0001|DEPT OF DEFENSE": {
-   "notice_id": "abb4d95176944adfa211a5832b0901cc",
+   "notice_id": "020e637fe6e94f7cbbfc781539fe0f53",
    "title": "Marine Corps Education Command Information Technology Support Services",
-   "deadline": "2026-12-02T15:00:00+00:00",
+   "deadline": "2026-12-08T15:00:00+00:00",
    "set_aside": "WOSB",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-19"
   },
   "sol:N0003926R0005|DEPT OF DEFENSE": {
    "notice_id": "f8200861df5e45acbd42e749feb7d8f8",
@@ -354,12 +402,20 @@
    "last_sent": "2026-11-16"
   },
   "sol:N0003927RM002|DEPT OF DEFENSE": {
-   "notice_id": "b51c8bc73f1c458cbeb90b5e57db8c77",
+   "notice_id": "3e4b52f4d2294259a445c421f349cdca",
    "title": "Solicitation - N0003927RM002: NILE ISS 6 Engineering Services",
    "deadline": "2026-12-17T20:00:00+00:00",
    "set_aside": "SBA",
    "first_sent": "2026-11-18",
-   "last_sent": "2026-11-18"
+   "last_sent": "2026-11-19"
+  },
+  "sol:N0017327Q1301411360A|DEPT OF DEFENSE": {
+   "notice_id": "f452d8c942ca48fe85e6cae9a05a8967",
+   "title": "Gigabyte Server G294-Z42-AAP2",
+   "deadline": "2026-11-30T14:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
   },
   "sol:N0017327Q1301411360|DEPT OF DEFENSE": {
    "notice_id": "c437495c5f5444c09ecbd187eaf4553b",
@@ -449,13 +505,21 @@
    "first_sent": "2026-11-18",
    "last_sent": "2026-11-18"
   },
+  "sol:W912CN27RA005|DEPT OF DEFENSE": {
+   "notice_id": "ae089f6c856e4a34b2b9e812479e63e4",
+   "title": "MULTIPLE AWARD LAN/DLAN SIPR-NIPR BPA",
+   "deadline": "2026-12-19T09:59:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-19",
+   "last_sent": "2026-11-19"
+  },
   "sol:W91RUS27RA001|DEPT OF DEFENSE": {
-   "notice_id": "65a1d0b2da7c4703bf70bb3054048fb6",
-   "title": "TOTAL ENGINEERING AND INTEGRATION SERVICES (TEIS) IV On-Ramp Opportunity",
+   "notice_id": "d20ba1a90f31442483902adedabe2449",
+   "title": "TOTAL ENGINEERING AND INTEGRATION SERVICES  (TEIS) IV On-Ramp Opportunity",
    "deadline": "2026-11-25T23:00:00+00:00",
    "set_aside": "SBP",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-19"
   }
  }
 }
