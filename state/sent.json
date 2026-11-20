@@ -10,12 +10,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:1106202612072026|GENERAL SERVICES ADMINISTRATION": {
-   "notice_id": "0d44ad049e474ea389e3661dca75413b",
+   "notice_id": "92c1221a05ca49eb87cd904fc87d7d7b",
    "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
-   "deadline": "2026-12-08T04:59:00+00:00",
+   "deadline": "2026-12-07T22:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-19"
+   "last_sent": "2026-11-20"
   },
   "sol:111720261|HOMELAND SECURITY, DEPARTMENT OF": {
    "notice_id": "c88c679e95774aa4aa19071c54469abc",
@@ -137,6 +137,22 @@
    "first_sent": "2026-11-19",
    "last_sent": "2026-11-19"
   },
+  "sol:36C10B27Q0134|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "975ff5c47c644fa5931e08799a344e0c",
+   "title": "DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)",
+   "deadline": "2026-12-01T14:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-20",
+   "last_sent": "2026-11-20"
+  },
+  "sol:36C10B27Q0139|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "755349d6530c4d1a88519908913deaff",
+   "title": "DA10--VTP VetRide Transportation Solution  (VA-27-00009538)",
+   "deadline": "2026-12-04T20:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-20",
+   "last_sent": "2026-11-20"
+  },
   "sol:36C10B27R0003|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "0b48a6495bdb4fe5b3cb53e0b962a913",
    "title": "DA10--Radiology and Cardiology Foundational Enterprise Imaging System",
@@ -144,6 +160,22 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-17"
+  },
+  "sol:36C24527Q0081|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "77e2cd670c3040a6ad2a1fc44daa2bc5",
+   "title": "DJ10--Alertus Enhanced Notification Licensing & Premier Support",
+   "deadline": "2026-11-30T15:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-20",
+   "last_sent": "2026-11-20"
+  },
+  "sol:36C25927Q0061|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "2844a59e27da407db5c5aac404bd35d7",
+   "title": "AI tool for Medication Reconciliation and Clinical Review",
+   "deadline": "2026-11-30T22:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-20",
+   "last_sent": "2026-11-20"
   },
   "sol:36C26027Q0119|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "f107f75ec18a48d09c520c29cf744ece",
@@ -177,6 +209,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:68HERW27Q0020|ENVIRONMENTAL PROTECTION AGENCY": {
+   "notice_id": "30316c938edf4019a4b97cd8777f4e09",
+   "title": "Digital Pesticide Labeling Platform Pilot",
+   "deadline": "2026-12-08T22:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-20",
+   "last_sent": "2026-11-20"
+  },
   "sol:70FA3127I00000002|HOMELAND SECURITY, DEPARTMENT OF": {
    "notice_id": "5dc9d47b7d004778905287840fd6a7e4",
    "title": "FIID Advanced Anti-Fraud and Risk-Modeling Proof of Concept",
@@ -200,6 +240,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:75H71027Q00004|HEALTH AND HUMAN SERVICES, DEPARTMENT OF": {
+   "notice_id": "f350647ccf294aaa9f1ad4ec662777ff",
+   "title": "Pharmacy Patient Workflow Tracking System",
+   "deadline": "2026-11-30T16:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-20",
+   "last_sent": "2026-11-20"
   },
   "sol:80JSC026ORBIT|NATIONAL AERONAUTICS AND SPACE ADMINISTRATION": {
    "notice_id": "b8ca2ef21ff84da8a77c2870afdf450e",
@@ -250,12 +298,12 @@
    "last_sent": "2026-11-19"
   },
   "sol:DLA-RFI-CT-2027-WBOS-MKTRES|DEPT OF DEFENSE": {
-   "notice_id": "b44026882ad144629634ab6643a9f0d8",
+   "notice_id": "2f457e8ce04944978a823a1ad8112abb",
    "title": "DLA-RFI-CT-2027-WBOS-MKTRES",
    "deadline": "2026-11-27T21:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-20"
   },
   "sol:F2027701000007|HOMELAND SECURITY, DEPARTMENT OF": {
    "notice_id": "44f80b43f9e8497ea053e5437915eb6f",
@@ -266,12 +314,12 @@
    "last_sent": "2026-11-18"
   },
   "sol:F3G1EB6257AG01|DEPT OF DEFENSE": {
-   "notice_id": "6a6a981f0f0441d3acd9ae1aabc340a7",
+   "notice_id": "7303861ff65e47f9bf4c5aa6fb472f0a",
    "title": "30 RS Mission Planning Software Tool (MPST)",
    "deadline": "2026-11-30T18:00:00+00:00",
    "set_aside": "SBA",
    "first_sent": "2026-11-17",
-   "last_sent": "2026-11-17"
+   "last_sent": "2026-11-20"
   },
   "sol:FA300227RDSS4|DEPT OF DEFENSE": {
    "notice_id": "100ae61945aa4be4b7cefb18db86dc9c",
@@ -482,12 +530,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:W50NH9-26-S-0001|DEPT OF DEFENSE": {
-   "notice_id": "907ad2ce08a243079f41847b51acebe0",
+   "notice_id": "a82643b5b55b4e6bb5b030348282eb7e",
    "title": "AIE-ITS CSO",
    "deadline": "2027-09-11T21:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-20"
   },
   "sol:W906ZL27RA001|DEPT OF DEFENSE": {
    "notice_id": "7aba6034a12643f1ac8ec5ed23bafcca",
@@ -515,11 +563,11 @@
   },
   "sol:W91RUS27RA001|DEPT OF DEFENSE": {
    "notice_id": "d20ba1a90f31442483902adedabe2449",
-   "title": "TOTAL ENGINEERING AND INTEGRATION SERVICES  (TEIS) IV On-Ramp Opportunity",
+   "title": "TOTAL ENGINEERING AND INTEGRATION SERVICES (TEIS) IV On-Ramp Opportunity",
    "deadline": "2026-11-25T23:00:00+00:00",
    "set_aside": "SBP",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-19"
+   "last_sent": "2026-11-20"
   }
  }
 }
