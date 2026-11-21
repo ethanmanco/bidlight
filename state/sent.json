@@ -9,6 +9,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:101926A0595|STATE, DEPARTMENT OF": {
+   "notice_id": "f3d5e0f610c0445ea9e09ebb2fa94629",
+   "title": "Integrated Biometrics System/Facial Recognition",
+   "deadline": "2026-12-11T21:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-21",
+   "last_sent": "2026-11-21"
+  },
   "sol:1106202612072026|GENERAL SERVICES ADMINISTRATION": {
    "notice_id": "92c1221a05ca49eb87cd904fc87d7d7b",
    "title": "Post Quantum Cryptography (PQC) Readiness and Validation Status",
@@ -89,6 +97,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-19"
   },
+  "sol:2027-R-017|SENATE, THE": {
+   "notice_id": "0d57faed51cf44fbb4647ba266cb233d",
+   "title": "Asana Enterprise Renewal",
+   "deadline": "2026-11-30T18:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-21",
+   "last_sent": "2026-11-21"
+  },
   "sol:2031JW27N00001|TREASURY, DEPARTMENT OF THE": {
    "notice_id": "40753072fa68490cbeeeba31dab9fd29",
    "title": "Sources Sought for SBIR/STTR Enterprise Architecture and Solutions Architecture",
@@ -112,6 +128,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:36C10B27Q0010|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "b00b4bdf8f164145a8e3932d16ace3bd",
+   "title": "DA10--Enterprise Database Vulnerability Scanning Solution",
+   "deadline": "2026-11-30T16:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-21",
+   "last_sent": "2026-11-21"
   },
   "sol:36C10B27Q0022|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "8bb8e802ff0944ccae0490abfead9c83",
@@ -147,11 +171,19 @@
   },
   "sol:36C10B27Q0139|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "755349d6530c4d1a88519908913deaff",
-   "title": "DA10--VTP VetRide Transportation Solution  (VA-27-00009538)",
+   "title": "DA10--VTP VetRide Transportation Solution (VA-27-00009538)",
    "deadline": "2026-12-04T20:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-20",
-   "last_sent": "2026-11-20"
+   "last_sent": "2026-11-21"
+  },
+  "sol:36C10B27Q0142|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "b105d0cce1774df595209236b81bec31",
+   "title": "DA01--RFI 36C10B27Q0056 Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
+   "deadline": "2026-11-30T18:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-21",
+   "last_sent": "2026-11-21"
   },
   "sol:36C10B27R0003|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "0b48a6495bdb4fe5b3cb53e0b962a913",
@@ -450,12 +482,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:N0003927RM002|DEPT OF DEFENSE": {
-   "notice_id": "3e4b52f4d2294259a445c421f349cdca",
+   "notice_id": "db8203e048e448d4b21fd62e7ec32337",
    "title": "Solicitation - N0003927RM002: NILE ISS 6 Engineering Services",
    "deadline": "2026-12-17T20:00:00+00:00",
    "set_aside": "SBA",
    "first_sent": "2026-11-18",
-   "last_sent": "2026-11-19"
+   "last_sent": "2026-11-21"
   },
   "sol:N0017327Q1301411360A|DEPT OF DEFENSE": {
    "notice_id": "f452d8c942ca48fe85e6cae9a05a8967",
