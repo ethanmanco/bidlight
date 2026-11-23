@@ -10,12 +10,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:101926A0595|STATE, DEPARTMENT OF": {
-   "notice_id": "f3d5e0f610c0445ea9e09ebb2fa94629",
+   "notice_id": "76e7b4998b3e4463bf6aa979f51a41c4",
    "title": "Integrated Biometrics System/Facial Recognition",
    "deadline": "2026-12-11T21:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-21",
-   "last_sent": "2026-11-21"
+   "last_sent": "2026-11-23"
   },
   "sol:1106202612072026|GENERAL SERVICES ADMINISTRATION": {
    "notice_id": "92c1221a05ca49eb87cd904fc87d7d7b",
@@ -74,12 +74,12 @@
    "last_sent": "2026-11-19"
   },
   "sol:140RR027Q0029|INTERIOR, DEPARTMENT OF THE": {
-   "notice_id": "4882a4cdf33e46b2ac1f8220e242a8a4",
+   "notice_id": "1f251a45d8074dd0b9e000503be062ae",
    "title": "R--IT TSC - DATA ANALYTICS AND SERVICES",
-   "deadline": "2026-11-24T06:30:00+00:00",
+   "deadline": "2026-11-30T17:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-17",
-   "last_sent": "2026-11-17"
+   "last_sent": "2026-11-23"
   },
   "sol:19AQMM24R0113|STATE, DEPARTMENT OF": {
    "notice_id": "bb11d6041195431fab93de7c1c084aa0",
@@ -88,6 +88,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:2023H2-27-N-00001|TREASURY, DEPARTMENT OF THE": {
+   "notice_id": "715697342234472185da32f932a97451",
+   "title": "Mission Enabling Enforcement Services (MEES) -IRS-CI",
+   "deadline": "2026-12-08T17:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-23",
+   "last_sent": "2026-11-23"
   },
   "sol:2027-R-007|SENATE, THE": {
    "notice_id": "619bcdb9e115406c9e978b7ae5812c6e",
@@ -169,6 +177,14 @@
    "first_sent": "2026-11-20",
    "last_sent": "2026-11-20"
   },
+  "sol:36C10B27Q0135|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "7ca33cb238f948e58e942675e6cae33b",
+   "title": "DA10--Health Services Portfolio Technical Management and Strategic  Solutioning Support (HTMS)",
+   "deadline": "2026-12-07T15:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-23",
+   "last_sent": "2026-11-23"
+  },
   "sol:36C10B27Q0139|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "755349d6530c4d1a88519908913deaff",
    "title": "DA10--VTP VetRide Transportation Solution (VA-27-00009538)",
@@ -200,6 +216,14 @@
    "set_aside": "",
    "first_sent": "2026-11-20",
    "last_sent": "2026-11-20"
+  },
+  "sol:36C25527Q0049|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "ef0438d3bd8f46a6bbb2e5085994e346",
+   "title": "36C25527Q0049 - IVX & Cerner to Interface with EHRM",
+   "deadline": "2026-12-08T17:00:00+00:00",
+   "set_aside": "SDVOSBC",
+   "first_sent": "2026-11-23",
+   "last_sent": "2026-11-23"
   },
   "sol:36C25927Q0061|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "2844a59e27da407db5c5aac404bd35d7",
@@ -321,13 +345,21 @@
    "first_sent": "2026-11-19",
    "last_sent": "2026-11-19"
   },
+  "sol:CORHQ-26-Q-0369|FEDERAL DEPOSIT INSURANCE CORPORATION": {
+   "notice_id": "268d6a6711684f0c984a5affb37f0d95",
+   "title": "FedRAMP Webex Subscription Maintenance",
+   "deadline": "2026-12-03T22:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-23",
+   "last_sent": "2026-11-23"
+  },
   "sol:DISA-OTA-27-R-ICAM|DEPT OF DEFENSE": {
-   "notice_id": "479d8ee8a0f44bc7a33d6955916c9e05",
+   "notice_id": "2e4753aa62264601a47dca70910786d5",
    "title": "Area of Interest (AOI) for Next Generation Enterprise Identity, Credential, and Access Management (E-ICAM) Prototype Other Transaction (OT)",
    "deadline": "2026-11-30T23:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-19"
+   "last_sent": "2026-11-23"
   },
   "sol:DLA-RFI-CT-2027-WBOS-MKTRES|DEPT OF DEFENSE": {
    "notice_id": "2f457e8ce04944978a823a1ad8112abb",
@@ -354,12 +386,12 @@
    "last_sent": "2026-11-20"
   },
   "sol:FA300227RDSS4|DEPT OF DEFENSE": {
-   "notice_id": "100ae61945aa4be4b7cefb18db86dc9c",
+   "notice_id": "410adbee96db4119a3a44e0fa600cf2c",
    "title": "Pilot Training Transformation Device Support Services IV (PTT DSS IV)",
-   "deadline": "2026-11-25T21:00:00+00:00",
+   "deadline": "2026-12-04T18:00:00+00:00",
    "set_aside": "SBA",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-16"
+   "last_sent": "2026-11-23"
   },
   "sol:FA445226SC001|DEPT OF DEFENSE": {
    "notice_id": "8249a1893a3442b688e32f912753a261",
@@ -368,6 +400,14 @@
    "set_aside": "",
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
+  },
+  "sol:FA7014-27-R-PKHB07|DEPT OF DEFENSE": {
+   "notice_id": "6e93d186ea9148bb9065e642bba2093d",
+   "title": "FA7014-27-R-PKHB07_HAF AF A3 ALMAS_Sources Sought",
+   "deadline": "2026-12-07T09:30:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-23",
+   "last_sent": "2026-11-23"
   },
   "sol:FA704627_RFI_DATA_CATALOG|DEPT OF DEFENSE": {
    "notice_id": "d826907afb7247e091c636869b85245a",
@@ -385,6 +425,14 @@
    "first_sent": "2026-11-19",
    "last_sent": "2026-11-19"
   },
+  "sol:FA830727RB009|DEPT OF DEFENSE": {
+   "notice_id": "cb3d70cb9e514d10b7e487b36f3430fe",
+   "title": "Notice of Proposed Contract Action/Notice of Intent to Sole Source Platform One Party Bus Bridge 2",
+   "deadline": "2026-11-29T15:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-23",
+   "last_sent": "2026-11-23"
+  },
   "sol:FA8612_RFI_AMCM_2027_0001|DEPT OF DEFENSE": {
    "notice_id": "1398a352e7a844f998eeeb7e2c9e3f57",
    "title": "Automated Mission Communication Manager Request for Information (RFI)",
@@ -394,12 +442,12 @@
    "last_sent": "2026-11-16"
   },
   "sol:FA8771-26-S-C0001|DEPT OF DEFENSE": {
-   "notice_id": "dec55323d4f944a39b3970d977f2a95b",
+   "notice_id": "869163d6ed1a4170a60809a62fd28458",
    "title": "Department of the Air Force Business and Enterprise Systems (BES) Commercial Solutions Opening (CSO)",
    "deadline": null,
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-19"
+   "last_sent": "2026-11-23"
   },
   "sol:FA940127Q0001|DEPT OF DEFENSE": {
    "notice_id": "3781b6c27eaa4938842fe44217964d14",
@@ -522,12 +570,12 @@
    "last_sent": "2026-11-17"
   },
   "sol:NGA-SRW|DEPT OF DEFENSE": {
-   "notice_id": "01a9603402a6488e99748e1457c85d1b",
+   "notice_id": "8265614e333744cb9145d6e1340483f8",
    "title": "Sustainment for SRW",
-   "deadline": "2026-12-12T00:00:00+00:00",
+   "deadline": "2026-12-11T22:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-16",
-   "last_sent": "2026-11-17"
+   "last_sent": "2026-11-23"
   },
   "sol:PANRSA27P000001|DEPT OF DEFENSE": {
    "notice_id": "d42cc82803064a10a68625d59c824d29",
