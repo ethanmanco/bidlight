@@ -81,6 +81,14 @@
    "first_sent": "2026-11-17",
    "last_sent": "2026-11-23"
   },
+  "sol:15DDHQ-27-RFI-FABT02|JUSTICE, DEPARTMENT OF": {
+   "notice_id": "f3142a61940f44bea4117d2d2bae91fd",
+   "title": "Fountainhead",
+   "deadline": "2026-12-24T19:00:00+00:00",
+   "set_aside": "SBA",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
+  },
   "sol:19AQMM24R0113|STATE, DEPARTMENT OF": {
    "notice_id": "bb11d6041195431fab93de7c1c084aa0",
    "title": "Next Generation (NextGen) Passport Personalization Printers Support",
@@ -170,20 +178,20 @@
    "last_sent": "2026-11-19"
   },
   "sol:36C10B27Q0134|VETERANS AFFAIRS, DEPARTMENT OF": {
-   "notice_id": "975ff5c47c644fa5931e08799a344e0c",
-   "title": "DE01--Enterprise Service Desk (ESD) Managed Services (VA-27-00019920)",
+   "notice_id": "b82d2efe145b4ca68c01a597a0fa130c",
+   "title": "DE01--Enterprise Service Desk (ESD) Managed Services  (VA-27-00019920)",
    "deadline": "2026-12-01T14:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-20",
-   "last_sent": "2026-11-20"
+   "last_sent": "2026-11-24"
   },
   "sol:36C10B27Q0135|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "7ca33cb238f948e58e942675e6cae33b",
-   "title": "DA10--Health Services Portfolio Technical Management and Strategic  Solutioning Support (HTMS)",
+   "title": "DA10--Health Services Portfolio Technical Management and Strategic Solutioning Support (HTMS)",
    "deadline": "2026-12-07T15:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-23",
-   "last_sent": "2026-11-23"
+   "last_sent": "2026-11-24"
   },
   "sol:36C10B27Q0139|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "755349d6530c4d1a88519908913deaff",
@@ -193,6 +201,14 @@
    "first_sent": "2026-11-20",
    "last_sent": "2026-11-21"
   },
+  "sol:36C10B27Q0141|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "733942773e284c9b9efae3fe73b163f1",
+   "title": "DA01--Appeals Innovation and Integration Services (AI2S) RFI  (VA-27-00017929)",
+   "deadline": "2026-12-21T17:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
+  },
   "sol:36C10B27Q0142|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "b105d0cce1774df595209236b81bec31",
    "title": "DA01--RFI 36C10B27Q0056 Veterans Health Information Systems and Technology (VISTA) Blood Establishment Computer Software (VBECS) Operations and Maintenance Support II",
@@ -200,6 +216,30 @@
    "set_aside": "",
    "first_sent": "2026-11-21",
    "last_sent": "2026-11-21"
+  },
+  "sol:36C10B27Q0144|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "cfd2bb292b394e778a636a84f39ca4ef",
+   "title": "DA10--IT Control and Material Weakness Remediation [TSS  Re-compete] (VA-27-00001285)",
+   "deadline": "2026-12-09T15:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
+  },
+  "sol:36C10B27Q0146|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "d22e979681a640708e7066f8c8894ab3",
+   "title": "5831--Vocera Service Agreement  (VA-27-00015995)",
+   "deadline": "2026-12-01T17:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
+  },
+  "sol:36C10B27Q0147|VETERANS AFFAIRS, DEPARTMENT OF": {
+   "notice_id": "cb52298a58dc4971af56bdd5fe2b3a76",
+   "title": "7A21--Clinical Monitoring and Intervention Software Solution  (VA-27-00005400)(VA-27-00004276)",
+   "deadline": "2026-12-02T16:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
   },
   "sol:36C10B27R0003|VETERANS AFFAIRS, DEPARTMENT OF": {
    "notice_id": "0b48a6495bdb4fe5b3cb53e0b962a913",
@@ -282,12 +322,12 @@
    "last_sent": "2026-11-17"
   },
   "sol:70US0927RFI0002|HOMELAND SECURITY, DEPARTMENT OF": {
-   "notice_id": "ec92e03718cd4fc5b00d200ed64fb706",
+   "notice_id": "64100a07b58d4f09a650f59b2f94c98a",
    "title": "Operational Video Capability (OVC) Support Services for the United States Secret Service",
-   "deadline": "2026-11-25T12:00:00+00:00",
+   "deadline": "2026-12-02T12:00:00+00:00",
    "set_aside": "",
    "first_sent": "2026-11-18",
-   "last_sent": "2026-11-18"
+   "last_sent": "2026-11-24"
   },
   "sol:70ZA0127AIRC12001|HOMELAND SECURITY, DEPARTMENT OF": {
    "notice_id": "d11021cb4fc14020b5eff9532adb071f",
@@ -320,6 +360,14 @@
    "set_aside": "SBA",
    "first_sent": "2026-11-17",
    "last_sent": "2026-11-17"
+  },
+  "sol:89503511242026|ENERGY, DEPARTMENT OF": {
+   "notice_id": "75df0a1c712e435bb2decfcca8278a5d",
+   "title": "Records Management System Southeastern Power",
+   "deadline": "2026-12-08T17:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
   },
   "sol:ACQ_SI_DOP|DEPT OF DEFENSE": {
    "notice_id": "6d64f1dce5f3423f97553a6f5a9874e0",
@@ -384,6 +432,14 @@
    "set_aside": "SBA",
    "first_sent": "2026-11-17",
    "last_sent": "2026-11-20"
+  },
+  "sol:F4FTAX6320AW01|DEPT OF DEFENSE": {
+   "notice_id": "e568076c88654440afea7574f2299477",
+   "title": "STK Renewal",
+   "deadline": "2026-12-01T19:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
   },
   "sol:FA300227RDSS4|DEPT OF DEFENSE": {
    "notice_id": "410adbee96db4119a3a44e0fa600cf2c",
@@ -497,6 +553,14 @@
    "first_sent": "2026-11-16",
    "last_sent": "2026-11-16"
   },
+  "sol:HT9427-27-SSN-702|DEPT OF DEFENSE": {
+   "notice_id": "358f37ac0fb244f1a72af3e7e9477e44",
+   "title": "Automated Cost Estimating Integrated Tools (ACEIT)",
+   "deadline": "2026-11-30T19:00:00+00:00",
+   "set_aside": "",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
+  },
   "sol:LOGFIN26|DEPT OF DEFENSE": {
    "notice_id": "4c21fb33e5ad4c3aa309281d54aa929b",
    "title": "Modernization of Logistics and Finance Business Systems (PM LOG?FIN formerly EBS?C) – Open and Continuous Call for Solutions (CFS)",
@@ -584,6 +648,14 @@
    "set_aside": "",
    "first_sent": "2026-11-17",
    "last_sent": "2026-11-17"
+  },
+  "sol:PRE-SOLICITATION_NOTICE_SHIELD_2_0|DEPT OF DEFENSE": {
+   "notice_id": "e2357f4c6fed42c9826fda5adcc80568",
+   "title": "Pre-solicitation Notice: SHIELD 2.0",
+   "deadline": null,
+   "set_aside": "SBA",
+   "first_sent": "2026-11-24",
+   "last_sent": "2026-11-24"
   },
   "sol:SCARS|DEPT OF DEFENSE": {
    "notice_id": "aba5c75a5ca941b1b176ccc5a8c51a4e",
